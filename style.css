@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url("bg.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("image/2.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.covid {
+    color: white;
+}
+
+.container-body {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.head-title {
+    padding: 10px;
+    position: relative;
+    top: -11%;
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    border: 0px solid #000000;
+}
+
+#infected {
+    background-color: #e6f6f5;
+}
+
+#infected h2 {
+    background-color: #00776d;
+}
+
+#death {
+    background-color: #fde8e9;
+}
+
+#death h2 {
+    background-color: #ed1c24;
+}
+
+#recovered {
+    background-color: #e8f3d9;
+}
+
+#recovered h2 {
+    background-color: #8dc63f;
+}
+
+.sub-infected h6 {
+    color: #00776d;
+    font-weight: 800;
+    border-bottom: 2px solid #00776d;
+}
+
+.sub-death h6 {
+    color: #ed1c24;
+    font-weight: 800;
+    border-bottom: 2px solid #ed1c24;
+}
+
+.sub-recovered h6 {
+    color: #8dc63f;
+    font-weight: 800;
+    border-bottom: 2px solid #8dc63f;
+}
+
+.sub-title p {
+    color: #000000;
+    font-size: 20px;
+}
